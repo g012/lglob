@@ -1,7 +1,7 @@
 --[[
   Filename globbing utility - ported from python.
   Dependencies: pl (PenLight), lfs (LuaFileSystem), lpeg (or LuLPeg), _ (Underscore.lua), globtopattern
-  pl and _ dependencies should be easy to remove if desired.
+  pl, lpeg and _ dependencies should be easy to remove if desired.
 ]]
 
 local lrequire = function(l)
