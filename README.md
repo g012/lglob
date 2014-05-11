@@ -13,5 +13,5 @@ pl and _ dependencies should be easy to remove if desired.
 
 ```lua
 glob = require"lglob"
-for v in iglob('../?ua/*.[ch]') do print(v) end
+for v in glob.iglob('../?ua/*.[ch]') do print(v) end
 ```
